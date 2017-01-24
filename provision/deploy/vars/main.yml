@@ -1,6 +1,6 @@
 # provision/deploy/vars/main.yml
 
 project_name: "vagranttest"
-project_root: /var/www/django-app
-virtualenv_path: /var/www/django-app/.env
+project_root: /vagrant
+virtualenv_path: /vagrant/.env
 python_version: python3.4

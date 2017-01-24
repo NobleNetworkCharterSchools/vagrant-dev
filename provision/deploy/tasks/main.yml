@@ -3,10 +3,10 @@
 - name: Setup Virtualenv
   pip:  virtualenv_python={{ python_version }}
         requirements="{{ project_root }}/requirements.txt"
-        virtualenv={{ virtualenv_path }}
+        virtualenv="{{ virtualenv_path }}"
 
 - name: Django syncdb
-  django_manage: command=syncdb app_path="{{ project_root }}/{{ project_name }}" virtualenv="{{ virtualenv_path }}"
+  django_manage: command=syncdb app_path="{{ project_root}}/{{ project_name }}" virtualenv="{{ virtualenv_path }}"
 
 - name: Django migrate
   django_manage: command=migrate app_path="{{ project_root }}/{{ project_name }}" virtualenv="{{ virtualenv_path }}"

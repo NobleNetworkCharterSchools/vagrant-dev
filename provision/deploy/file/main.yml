@@ -1,0 +1,6 @@
+#provision/deploy/file/main.yml
+
+- file:
+  src: /vagrant/.env/bin/activate
+  destination: ../activate
+  state: link

@@ -7,8 +7,7 @@
     # Database
     - postgresql
     - libpq-dev # Required for Ansible to interact with PGSQL
-    - python3-psycopg2 # "
-    #- python-psycopg2
+    - python-psycopg2 # "
 
     # Python Dev
     - python3-dev
@@ -17,11 +16,6 @@
 
     # Python 3
     - python3.4
-
-# called when the above pg_hba.conf file changes
-- name: Restart Postgres
-  become: yes
-  service: name=postgresql state=restarted
 
 - name: Allow password authentication for local socket users
   become: yes

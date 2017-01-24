@@ -1,5 +1,7 @@
 # vagrant-dev
 Vagrant and Ansible configurations for isolated dev environments.
+See https://help.github.com/articles/duplicating-a-repository/ for steps to
+copy this repo (untracked) for use in a new project.
 
 ### The Vagrant machine:
 * syncs app_dir/ on the host with /var/www/django-app on the guest

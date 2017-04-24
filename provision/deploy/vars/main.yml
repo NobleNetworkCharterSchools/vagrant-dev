@@ -1,6 +1,0 @@
-# provision/deploy/vars/main.yml
-
-project_name: "vagranttest"
-project_root: /vagrant
-virtualenv_path: /vagrant/.env
-python_version: python3.4

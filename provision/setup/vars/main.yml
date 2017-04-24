@@ -1,5 +1,0 @@
-# provision/setup/vars/main.yml
-
-db_name: django_app
-db_user: django
-db_password: fh3290fh984hfn4f0w97039 # XXX

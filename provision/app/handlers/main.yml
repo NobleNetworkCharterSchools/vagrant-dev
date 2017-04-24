@@ -1,4 +1,4 @@
-# provision/setup/handlers/main.yml
+# provision/app/handlers/main.yml
 
 - name: Restart Postgres
   become: yes

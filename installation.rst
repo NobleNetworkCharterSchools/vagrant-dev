@@ -1,5 +1,6 @@
-vagrant-dev
-===========
+=======================
+Vagrant + Ansible setup
+=======================
 Vagrant and Ansible configurations for isolated dev environments.
 
 The Vagrant machine:
@@ -16,17 +17,17 @@ The Ansible configuration consists of:
 Using the VM
 ============
 
-`vagrant up` - bring the environment up.  Needs to be run from the project root (where Vagrantfile should live)
+``vagrant up`` - bring the environment up.  Needs to be run from the project root (where Vagrantfile should live)
 
-`vagrant suspend` - suspend the machine, saving state (frees RAM on disk and doesn't use CPU)
+``vagrant suspend`` - suspend the machine, saving state (frees RAM on disk and doesn't use CPU)
 
-`vagrant destroy` - stop the machine and free all resources
+``vagrant destroy`` - stop the machine and free all resources
 
-`vagrant provision` - re-run any provisioning without needing to bring the machine down
+``vagrant provision`` - re-run any provisioning without needing to bring the machine down
 
 See the `Vagrant CLI docs`_
 
-.. _ Vagrant CLI docs: https://www.vagrantup.com/docs/cli/
+.. _Vagrant CLI docs: https://www.vagrantup.com/docs/cli/
 
 Installation
 ============

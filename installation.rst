@@ -3,6 +3,16 @@ Vagrant + Ansible setup
 =======================
 Vagrant and Ansible configurations for isolated dev environments.
 
+Installation
+============
+
+* `Install Vagrant`_
+* Vagrant requires `VirtualBox`_  on your machine
+* If anything complains about missing box or OS image, run `vagrant box add ubuntu/trusty64`
+
+.. _Install Vagrant: https://www.vagrantup.com/docs/installation/
+.. _VirtualBox: https://www.virtualbox.org/
+
 The Vagrant machine:
 --------------------
 * syncs app_dir/ on the host with /var/www/django-app on the guest
@@ -28,13 +38,3 @@ Using the VM
 See the `Vagrant CLI docs`_
 
 .. _Vagrant CLI docs: https://www.vagrantup.com/docs/cli/
-
-Installation
-============
-
-* `Install Vagrant`_
-* Vagrant requires `VirtualBox`_  on your machine
-* If anything complains about missing box or OS image, run `vagrant box add ubuntu/trusty64`
-
-.. _Install Vagrant: https://www.vagrantup.com/docs/installation/
-.. _VirtualBox: https://www.virtualbox.org/
